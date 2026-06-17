@@ -1,8 +1,6 @@
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=blue&center=true&vCenter=true&random=false&width=524&lines=%E2%8A%B9+Bem+vindo+ao meu+perfil!+%E2%8A%B9+" alt="Typing SVG">
-  </a>
-</div>
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%E2%9D%83Bem+vindo+ao+meu+perfil%E2%9D%83&font=Fira%20Code&center=true&width=380&height=50"/></a>
+</p>
 
 **`Desenvolvedor Backend`**
 # 👩🏻‍💻 Francisco Gabriel
@@ -101,7 +99,7 @@
       align="left" 
       alt="GitHub Stats" 
       height="300" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=franciscolimatech&theme=tokyonight&&custom_title=Tecnologias&langs_count=9" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=franciscolimatech&theme=tokyonight&custom_title=Tecnologias&langs_count=9" 
   />
 
 </p>
