@@ -98,8 +98,8 @@
 <img 
       align="left" 
       alt="GitHub Stats" 
-      height="300" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=franciscolimatech&theme=tokyonight&custom_title=Tecnologias&langs_count=9" 
+      height="280" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=franciscolimatech&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9"
   />
 
 </p>
