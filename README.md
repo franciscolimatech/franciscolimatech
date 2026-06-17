@@ -11,7 +11,6 @@
 
 
 <img align="right" alt="" height="190px" src="./src/study.gif">
-
 <p align="left">
     <a href="https://github.com/franciscolimatech?tab=repositories&sort=stargazers">
         <img 
@@ -26,6 +25,12 @@
             title="Me siga no GitHub" 
             src="https://custom-icon-badges.demolab.com/github/followers/franciscolimatech?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
         />
+    </a>
+    <a href="https://www.linkedin.com/in/francisco-lima-a4031a226/" target="_blank">
+        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+  <a href="franciscogabrielcerqueiralima@gmail.com">
+        <img src="https://img.shields.io/badge/-Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
 </p>
 
@@ -80,6 +85,15 @@
     width="30px" 
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
+/>
+
+<img 
+    align="left" 
+    alt="SQL"
+    title="SQL" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" 
 />
 <br/>
 <br/>
