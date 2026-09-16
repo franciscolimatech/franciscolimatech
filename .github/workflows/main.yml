@@ -34,12 +34,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&theme=tokyonight&layout=compact&langs_count=9&custom_title=Linguagens%20mais%20utilizadas
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+  uses: stats-organization/github-readme-stats-action@v2
+  with:
+    card: top-langs
+    options: username=${{ github.repository_owner }}&theme=tokyonight&layout=compact&langs_count=9&card_width=467&custom_title=Linguagens%20mais%20utilizadas
+    path: profile/top-langs.svg
+    token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit stats
         run: |
