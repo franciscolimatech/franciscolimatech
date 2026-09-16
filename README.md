@@ -162,17 +162,7 @@ Atualmente continuo aprofundando meus conhecimentos em Engenharia de Software, e
 ### Estatísticas
 
 <p align="center">
-  <img
-    alt="Estatísticas do GitHub"
-    height="190"
-    src="./profile/stats.svg"
-  />
-
-  <img
-    alt="Linguagens mais utilizadas"
-    height="190"
-    src="./profile/top-langs.svg"
-  />
+  <img width="49%" alt="Estatísticas do GitHub" src="./profile/stats.svg" /><img width="49%" alt="Linguagens mais utilizadas" src="./profile/top-langs.svg" />
 </p>
 
 <br/>
