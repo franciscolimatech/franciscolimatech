@@ -14,16 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # =========================
-      # Checkout
-      # =========================
-
       - name: Checkout repository
         uses: actions/checkout@v6
-
-      # =========================
-      # GitHub Stats
-      # =========================
 
       - name: Generate GitHub stats
         uses: stats-organization/github-readme-stats-action@v2
@@ -34,12 +26,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages
-  uses: stats-organization/github-readme-stats-action@v2
-  with:
-    card: top-langs
-    options: username=${{ github.repository_owner }}&theme=tokyonight&layout=compact&langs_count=9&card_width=467&custom_title=Linguagens%20mais%20utilizadas
-    path: profile/top-langs.svg
-    token: ${{ secrets.GITHUB_TOKEN }}
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&theme=tokyonight&layout=compact&langs_count=9&custom_title=Linguagens%20mais%20utilizadas
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit stats
         run: |
@@ -49,17 +41,14 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update profile stats"
           git push
 
-      # =========================
-      # Contribution Snake
-      # =========================
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-     - name: Generate contribution snake
-  uses: Platane/snk/svg-only@v3
-  with:
-    github_user_name: ${{ github.repository_owner }}
-    outputs: |
-      dist/github-contribution-grid-snake.svg
-      dist/github-contribution-grid-snake-dark.svg?palette=github-dark
       - name: Publish contribution snake
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
